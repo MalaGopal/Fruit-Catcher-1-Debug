@@ -63,7 +63,10 @@ class Game{
                          fill("black");
                          textSize(25);
                          text(allPlayers[plr].name ,x-25,y+25);
-
+                            
+                         textSize(50)
+                         fill("white")
+                        text("Score:"+player.score,400,100);
                          
                      }
                     
